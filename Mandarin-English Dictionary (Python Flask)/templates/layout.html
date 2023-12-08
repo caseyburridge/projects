@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>MyApp</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/custom.css') }}" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        {% include 'includes/_navbar.html' %}
+        <main role="main" class="container pt-10 text-center">
+            {% block body %}{% endblock %}
+            <div class="pt-4 pb-4">
+                <h4>Help keep us going/捐款</h4>
+                {% include 'includes/_donate_button.html' %}
+            </div>
+        </main>
+        <footer class="footer mt-auto py-3">
+            {% include 'includes/_footer.html' %}
+        </footer>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+        </script>
+    </body>
+</html>
