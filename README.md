@@ -1,2 +1,2 @@
 # Projects
-A collection of fun projects I've worked on while learning web development and machine learning.
+A collection of fun projects I've worked on related to programming, web development, and machine learning.
