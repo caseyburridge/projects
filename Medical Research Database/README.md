@@ -4,7 +4,7 @@ View a proof of concept here: https://testing.guthealthintel.com/view/datatables
 
 As someone who has struggled with IBS and other gut-related disorders, I decided to build a gut health research database focused on natural treatments.
 
-I wrote a Python script that queries the Pubmed API and pulls data for to relevant studies. The script formats the data and saves is to a CSV file.
+I wrote a Python script that queries the [Pubmed API](https://www.ncbi.nlm.nih.gov/home/develop/api/) and pulls data for relevant studies. The script formats the data and saves is to a CSV file.
 
 There is a separate script that loops through each row in the CSV file and sends a prompt to ChatGPT asking for a 1-2 sentence summary of the findings of the study.
 
