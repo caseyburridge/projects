@@ -11,3 +11,5 @@ There is a separate script that loops through each row in the CSV file and sends
 I then import all of this data to a WordPress website and constructed a searchable database as a proof of concept.
 
 This project is still a work in progress, but I intend for it to be the most comprehensive natural health research database for gut disorders.
+
+![CleanShot 2023-12-09 at 11 21 24@2x](https://github.com/caseyburridge/projects/assets/153317166/4a6fd954-0884-41b5-95ba-45162329d666)
