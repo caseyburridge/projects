@@ -13,7 +13,7 @@ import openai
 import pandas as pd
 
 # Set OpenAI API key
-openai.api_key = "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"
+openai.api_key = "sk-***"
 
 
 # Function to summarize the abstract (results of study)
