@@ -8,7 +8,7 @@ I wrote a Python script that queries the [Pubmed API](https://www.ncbi.nlm.nih.g
 
 There is a separate script that loops through each row in the CSV file and sends a prompt to ChatGPT asking for a 1-2 sentence summary of the findings of the study.
 
-I then import all of this data to a WordPress website and constructed a searchable database as a proof of concept.
+I then imported all of this data to a WordPress website and constructed a searchable database as a proof of concept for the finished application.
 
 This project is still a work in progress, but I intend for it to be the most comprehensive natural health research database for gut disorders.
 
