@@ -110,7 +110,7 @@ co_conditions_mesh = coconditions_list
 substance_list_test = ["Probiotics", "Berberine"] #substance_list
 
 # Define the CSV file path
-csv_file_path = "CSV files/test.csv"
+csv_file_path = "data/data.csv"
 
 # Check if the CSV file already exists
 csv_file_exists = os.path.exists(csv_file_path)
